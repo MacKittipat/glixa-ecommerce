@@ -1,0 +1,41 @@
+#header {
+    height: 200px;
+}
+#content_main {
+    overflow: hidden;
+}
+#content_left {
+    background-color: #DEDEDE;
+    float: left;
+    width: 150px;
+}
+#content_center {
+    float: left;
+    padding-left: 5px;
+    width: 835px;
+}
+.datatable #datatable_table {
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 12px;
+    table-layout: fixed;
+    width: 100%;
+}
+.datatable #datatable_table td, .datatable #datatable_table th {
+    border-color: black;
+    padding: 5px 5px 5px 5px;
+    word-wrap: break-word;
+}
+.form_row {
+    margin-bottom: 5px;
+}
+.form_row #form_row_title {
+    margin-bottom: 3px;
+}
+.form_row #form_row_control {
+
+}
+input[readonly] {
+    background-color: #cccccc;
+}

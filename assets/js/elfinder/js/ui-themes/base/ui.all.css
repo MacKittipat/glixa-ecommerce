@@ -1,0 +1,5 @@
+@import "ui.base.css";
+@import "ui.theme.css";
+.ui-widget {
+    font-size: small;
+}
